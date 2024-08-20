@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> WD - FinalP - WebSite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Dancing+Script:wght@500;600&family=Gloria+Hallelujah&family=Indie+Flower&family=Open+Sans:ital,wght@0,300;1,300&family=Phudu:wght@300;600;900&family=Playfair+Display&family=Qwitcher+Grypen:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- Nav Menu  -->
+    <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com.-->
+    <nav class="nabvar navbar-dark bg-info navbar-expand-sm sticky-top p-4">
+      <div class="container">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="topnav" role="navigation"  >
+          <ul class="nav navbar-nav ml-auto">
+            <li class="navDom"><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link ">About</a></li>
+            <li><a href="detail.html" class="nav-link">Detail</a></li>
+            <li><a href="key.html" class="nav-link">Key</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li><a href="report.html" class="nav-link">Report</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section" id="homeTop">
+      <div class="container text-center" id="HomeTit">
+        <div>
+          <h1 id="nameblog">  Climate change in 
+            <br>
+            <span class="japName">Japan</span> </h1>
+          <hr>
+          <h1>
+          <span class="eduName text-center ">Educational Blog 
+          </span> </h1>
+            
+        </div>
+      </div>
+    </section>
+ 
+
+
+  <!--First page in index    -->
+  <!--  Using Climate Central.com, 'Contents Reference'-->
+  <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com. -->
+    <section class="section" id="homeSec1">
+      <div class="container p-5">
+        <div class="h2 mb-5" id="indexSubtil">
+          <h2>"Changing Lives Due to Climate Change"</h2> 
+        </div>
+        <div class="row">
+          <div class="col homeSec1content">
+            
+            <p><h3 class="text-center">- Furthermore, if global warming continues to progress -</h3></p>
+            <br>
+            <p>How will our lives be affected and how will they change due to climate change?</p>
+            <p>Let's explore the changes in Japan from the past, present, and future based on the latest research.</p>
+
+            <p>Rising temperatures have led to shifts in weather patterns, resulting in more frequent and intense heatwaves across the country. This has implications for agriculture, as certain crops become more challenging to cultivate. Additionally, urban areas experience the 'urban heat island' effect, where cities tend to be warmer than surrounding rural areas.</p>
+
+            <p>Extreme weather events, such as typhoons and heavy rainfall, have become more prevalent, leading to increased risks of flooding, landslides, and coastal erosion. These events pose a significant threat to communities and infrastructure, necessitating improved disaster preparedness and response measures.</p>
+
+            <p>Rising sea levels are a growing concern, particularly for Japan's coastal regions. This leads to heightened vulnerability to coastal erosion and increased risks of storm surges during extreme weather events. Efforts to adapt to these changes include coastal protection measures and improved urban planning.</p>
+
+            <p>Japan has been actively pursuing renewable energy sources, such as solar, wind, and geothermal power, to reduce reliance on fossil fuels and mitigate greenhouse gas emissions. Government policies and incentives play a crucial role in promoting the transition to a more sustainable and low-carbon energy system.</p>
+          </div>
+          <div class="col mt-5">
+            <img src="image/sunset-8170058_1920.jpg" class="img-fluid" alt="A beautiful town in Japan">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--  Q and A section with "modals and etc..."-->
+    <!-- using Climate Central.com, 'Contents Reference'-->
+    <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com. -->
+    <section class="section" id="qanda">
+      <div class="container mb-5">
+
+        <div class="row">
+          <div class="col p-4">
+            <p><h3 class="text-center">
+              "Rising Temperatures - An increase of 1.28°C per century."</h3></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col bg-light p-3 rounded">
+            <div class="h2 text-center">
+              Past to Present</div>
+            <p class="p-2">"According to the statistics from the Japan Meteorological Agency, the annual average temperature in Japan has been increasing, experiencing various fluctuations, and has risen at a rate of approximately 1.28°C per century in the long term (refer to Figure 1). Especially since the 1990s, the number of years with high temperatures has been increasing. Even compared to the global annual average temperature increase of approximately 0.72°C per century, Japan's annual average temperature shows a higher rate of increase."</p>
+          </div>
+
+
+          <!--  Could be adding here "modal" for Q&A-->
+          <!-- using Climate Central.com, 'Contents Reference'-->
+          <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com. -->
+          <div class="col-4 bg-transparent">
+           <a href="#" class="btn btn-outline-danger btn-lg btn-block p-2 mt-5" data-toggle="modal" data-target="#myModal"> Future?</a>
+          </div>
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-title">
+                    <h3>
+                      "By the end of the 21st century, there is a possibility of an increase of up to approximately 4.5°C."
+                    </h3>
+                   </div>
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                      It is anticipated that the annual average temperature in Japan at the end of the 21st century (average for 2076-2095) is likely to rise compared to the end of the 20th century (average for 1980-1999). Under the RCP8.5 scenario, which represents the most advanced global warming, an increase of approximately 4.5°C is projected. Under the RCP2.6 scenario, which represents the most restrained global warming, an increase of approximately 1.4°C is anticipated. As temperatures rise, it will lead to changes in the environment around us and in our daily lives, affecting ecosystems and agriculture, among other things.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col p-4">
+            <p><h3 class="text-center">"Increase in the Number of (Short-term) Heavy Rainfall Days" <br> - Increased by 1.5 Times Over 35 Years -</h3></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col bg-light p-3 rounded">
+            <div class="h2 text-center">Past to Present</div>
+            <p class="p-2">According to statistics from the Japan Meteorological Agency, the annual occurrence of nationwide rainfall exceeding 50mm per hour has shown an increasing trend. The average annual occurrence from 2011 to 2020 (approximately 334 times) has increased by about 1.5 times compared to the average annual occurrence from 1976 to 1985 (approximately 226 times) </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col p-4">
+            <p><h3 class="text-center">"The rise in sea surface temperature." <br>
+              - A 1.16°C increase over a span of 100 years -</h3></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col bg-light p-3 rounded">
+            <div class="h2 text-center">From the past to the present</div>
+            <p class="p-2">over a span of 100 years, there has been a temperature increase of 1.16°C. According to statistics from the Japan Meteorological Agency, the rate of increase in the average sea surface temperature (annual average) in the offshore areas near Japan over approximately 100 years until 2020 is +1.16°C per century (refer to Figure 7). This rate of increase is greater than the global average rate of sea surface temperature increase (+0.56°C per century) and is similar to the temperature increase in Japan (+1.28°C per century).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--  Add a href tp move to other pages such as "About", "Keys", "details"-->
+    <!-- using Climate Central.com, 'Contents Reference' -->
+    <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com. -->
+    <section class="section" id="fact">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-5">
+           <div class="card">
+            <div class="card-header bg-info"> Detail #1</div>
+            <img class="card-img-top" src="image/jellyfish-257860_1920.jpg" alt="A sea creature - Jelly fish">
+              <div class="card-body">
+                <div class="card-title"> <h3>About</h3></div>
+                <div class="card-text mb-4">Do you know about - Mechanism of Global Warming:</div>
+                <a href="about.html" class="btn btn-primary p-2">Go to the "About" page</a>
+              </div>
+           </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+           <div class="card-header bg-danger"> Detail #2</div>
+           <img class="card-img-top" src="image/ocean-1867285_1920.jpg" alt="A beautiful sunset in Japan">
+             <div class="card-body">
+               <div class="card-title"><h3>More details</h3> </div>
+               <div class="card-text mb-4">Do you know effective methods for ventilating while keeping the room temperature warm?</div>
+               <a href="detail.html" class="btn btn-primary p-2">Go to Detail and Read more</a>
+             </div>
+          </div>
+       </div>
+
+       <div class="col-sm-6 col-lg-4 mb-3">
+        <div class="card">
+         <div class="card-header bg-warning"> Detail #3</div>
+         <img class="card-img-top" src="image/tree-3137482_1920.png" alt="A tree in a dessert">
+           <div class="card-body">
+             <div class="card-title"> </div>
+             <div class="card-text mb-4">Cool Biz? <br>
+              Proper Room Temperature??</div>
+             <a href="key.html" class="btn btn-primary p-2">Go to a "Key" page</a>
+           </div>
+          </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 mb-3">
+        <div class="card">
+        <div class="card-header bg-success"> Detail #4</div>
+        <img class="card-img-top" src="image/無題 (4).png" alt="Three kids playing at the beach ">
+          <div class="card-body">
+            <div class="card-title"> </div>
+            <div class="card-text mb-4">Are you interested? Contact me and work together</div>
+            <a href="contact.html" class="btn btn-primary p-2">Contact me!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--  Could use a "Carousel" here adding a href linked to other pages. Go get info how to add carousel in the previous section. Also possibly add DOM JS here  -->
+    <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com. -->
+    <header class="section carousel">
+      <div class="container">
+        <div id="car" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#car" data-slide-to="0" class="active"></li>
+                <li data-target="#car" data-slide-to="1"></li>
+                <li data-target="#car" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active"> 
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>"Changing Lives Due to Climate Change"</h4>
+                    <p>Click here and learn more about it</p>
+                  </div>
+                  <a href="#homeSec1"> 
+                    <img src="image/kuala-lumpur-1820944_1920.jpg" class="w-100 img-fluid"> 
+                  </a>
+                 
+                </div>
+                <div class="carousel-item"> 
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>"Rising Temperatures - An increase of 1.28°C per century."</h4>
+                    <p>Click here and learn more about it</p>
+                  </div>
+                  <a href="#qanda">  <img src="image/sunset-1373171_1280.jpg" class="w-100"> </a>
+                
+                </div>
+                <div class="carousel-item"> 
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Exploring to more topics</h4>
+                    <p>Click here and go to the adventure.</p>
+                  </div>
+                  <a href="#fact"> <img src="image/away-3408119_1920.jpg" class="w-100"> </a>
+                 
+                </div>
+            </div>
+            <a href="#car" data-slide="prev" class="carousel-control-prev bg-light"> <span class="carousel-control-prev-icon"></span> </a>
+            <a href="#car" data-slide="next" class="carousel-control-next bg-light"> <span class="carousel-control-next-icon"></span> </a>
+        </div>
+    </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--   Contact form for Main -->
+    <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com. -->
+    <section class="section" id="contact">
+      <div class="container">
+        <form action="">
+          <div class="form-group row mb-4 p-3">
+            <label for="fullName" class="col-sm-2 col-form-label">Full Name</label>
+            <div class="col-sm-10 ">
+              <input type="text" class="form-control p-3 bg-light" id="fullName" placeholder="Full Name">
+            </div>
+          </div>
+          <div class="form-group row mb-4 p-3">
+            <label for="email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control p-3 bg-light" id="email" placeholder="email">
+            </div>
+          </div>
+          <div class="form-group row mb-4 p-3">
+            <label for="message" class="col-sm-2 col-form-label">Maessage</label>
+            <div class="col-sm-10">
+             <textarea class="form-control bg-light" id="message" rows="5"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary p-2 ml-4 mb-3">Message Me</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- using Bootstrap, "Bootstrap reference" , 2023. [Online]. Available: https://getbootstrap.com. -->
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="text-center text-light p-4"> Copyright(c) Atsuya Inomata</div>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,362 @@
+
+/* Photo AC, "Images reference - all the images inside my website are from this site" , 2023. [Online]. Available:
+https://www.photo-ac.com/. */
+
+
+.section {
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+  padding: 100px 10px 50px 10px;
+  background-size: center;
+}
+
+.section:nth-child(even) {
+  background-color: aliceblue;
+}
+
+p {
+  font-size: 1.4rem;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: azure;
+}
+
+
+
+/*  Index.html  */
+
+#homeTop {
+  min-height: 400px;
+  
+}
+
+#HomeTit {
+  background-color:rgba(70,130,180, 0.8) ;
+  margin-top: 40px;
+  padding: 100px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+#nameblog {
+  font-size: 4.5rem;
+  font-family: 'Anton', sans-serif;
+  color: aliceblue;
+  display: inline-block;
+  letter-spacing: 10px;
+}
+
+.eduName {
+  font-size: 5rem;
+  color: SeaShell;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.japName {
+  color: rgba(255, 0, 0, 0.4) ;
+  font-size: 4rem;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.carousel {
+  min-height: 500px;
+}
+
+#homeSec1 {
+  background: url("image/kuala-lumpur-1820944_1920.jpg") no-repeat center center fixed;
+}
+
+#qanda {
+  background: url("image/sunset-1373171_1280.jpg") no-repeat center center fixed;
+}
+
+#fact {
+  background: url("image/away-3408119_1920.jpg") no-repeat center center fixed;
+}
+
+#indexSubtil {
+  color: whitesmoke;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px; 
+  font-size: 4rem;
+  border: 1px solid black;
+}
+
+#titleIn {
+  /* color: black;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px; */
+}
+
+.homeSec1content {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#homeSec1 > div, #qanda > div {
+  /* background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px; */
+  color: rgb(85, 61, 61);
+}
+
+#contact > div {
+  background-color: white;
+  border: 3px lightgray solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+
+/* about.html  */
+
+.jumbAbout {
+  background: url("image/jellyfish-257860_1920.jpg") no-repeat center center fixed;
+  padding: 5rem 0;
+}
+
+#aboutWel {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.aboutWord {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+
+.aboutWordsm {
+  font-size: 1.4rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.mastInfo {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+
+
+
+/* 
+  detail.html  
+*/
+
+.wrapper {
+  z-index: 0;
+}
+
+.detailTil {
+  padding: 40px;
+  text-align: center;
+  color: black;
+  font-size: 2.2rem;
+}
+
+.detailStil {
+  font-size: 1.8rem;
+}
+
+.detailP p {
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.section article {
+  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+
+.detDrop {
+  position: fixed;
+  z-index: 1;
+}
+
+.fixPoint {
+  background-attachment: fixed;
+}
+
+.arcOne {
+  background: url("image/ocean-1867285_1920.jpg") no-repeat center center fixed;
+}
+
+#arcTwo {
+  background: url("image/beach-1852945_1920.jpg") no-repeat center center fixed;
+}
+
+#arcThree {
+  background: url("image/sea-2361247_1920.jpg") no-repeat center center fixed;
+}
+
+#arcFour {
+  background: url("image/sunset-1373171_1280.jpg") no-repeat center center fixed;
+}
+
+.conBott {
+  height: 60px;
+  max-width: 100%;
+  margin-top: 60px;
+  padding: 40px;
+}
+
+
+
+
+
+/* key.html  */
+#navMenu {
+ 
+}
+
+.navBar {
+  position: fixed;
+  right: 5%;
+  top: 40%;
+  height: 150px;
+  opacity: 0.8;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navBar li {
+  list-style: none;
+  padding: 0;
+  font-size: 0.01px;
+}
+
+.navBar li a{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: aliceblue;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: forestgreen;
+  font-size: 14px;
+  padding: 4px;
+  overflow: hidden;
+  text-align: top;
+}
+
+.navBar li a:hover {
+  background-color: forestgreen;
+  color: aliceblue;
+}
+
+.modalBody {
+  background-color: white;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 25px;
+  width: 70%;
+  min-height: 200px;
+}
+
+
+.modalMain {
+  display: none;
+  text-align: center;
+}
+
+.close {
+  float: right;
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.modalCon {
+  background-color: antiquewhite;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.modal1 {
+  color: coral;
+  border-radius: 45%;
+  padding: 10px;
+}
+
+.outputC {
+  border: 1px solid black;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  background-color: SteelBlue;
+}
+
+.outputC::after
+ {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  left: 25%;
+  top: 50%;
+  box-shadow: 0 0 0 3vh purple, 0 0 0 6vh blue, 0 0 0 9vh lightblue, 0 0 0 12vh green, 0 0 0 15vh yellow, 
+  0 0 0 18vh orange, 0 0 0 21vh red
+ }
+
+ .keySubTil {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+ }
+
+  .keySec .keyContent {
+  font-size: 1.4rem;
+  color: gray;
+  background-color: none;
+  padding: 20px;
+ }
+
+ .keySec {
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+  padding: 100px 10px 50px 10px;
+  background-size: center;
+ }
+
+ .keySec:nth-child(even) {
+  background-color: aliceblue;
+ }
